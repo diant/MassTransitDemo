@@ -1,6 +1,5 @@
 using MassTransitDemo;
 using MassTransitDemo.WeatherForecast;
-using Microsoft.AspNetCore.Builder;
 
 var builder = WebApplication.CreateBuilder(args)
     .AddMassTransitWithMediator()

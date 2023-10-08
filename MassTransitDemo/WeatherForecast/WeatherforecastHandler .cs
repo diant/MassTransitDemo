@@ -30,4 +30,4 @@ public sealed class WeatherforecastHandler : MediatorRequestHandler<WeatherForec
 }
  
 public record WeatherForecastRequest() : Request<WeatherForecastResponse>;
-public record WeatherForecastResponse(ICollection<WeatherForecast> WeatherForecasts);
+public record WeatherForecastResponse(IReadOnlyCollection<WeatherForecast> WeatherForecasts);
